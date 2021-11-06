@@ -40,7 +40,7 @@ function validateForm() {
         messageContainer.style.borderColor = 'green';
     }
 }
-
+// Make sure connection is HTTPS to encrypt user data
 function storeFormData() {
     const user = {
         name: form.name.value,
